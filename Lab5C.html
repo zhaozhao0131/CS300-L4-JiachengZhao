@@ -1,0 +1,27 @@
+<script>
+Z=prompt("Enter a Value");
+Q=prompt("Enter a Symbol");
+M=prompt("Enter other Value");
+
+function account(a,c,b){
+	if(c=='+'){
+		N=eval(a)+eval(b);
+		return N;
+	}
+	if(c=='*'){
+		N=eval(a)*eval(b);
+		return N;
+	}
+	if(c=='-'){
+		N=eval(a)-eval(b);
+		return N;
+	}
+	if(c=='/'){
+		N=eval(a)/eval(b);
+		return N;
+	}
+}
+alert("Result: "+account(Z,Q,M));
+
+
+</script>
